@@ -1,2 +1,2 @@
-# React-Developer-Profile-
+# React-Developer-Profile
 Michael Schenck Developer Profile - Created With React
