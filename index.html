@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Michael Schenck Developer Portfolio</title>
+  </head>
+
+  <!-- Site Header -->
+  <div class="row headerRow">
+    <div class="col s12"></div>
+      <header class="header">
+        <h1>Michael <span class="sch">Sch</span>enck</h1>
+        <nav>
+          <ul>
+          <li>
+            <a href="#aboutme" class="navLink">About Me</a>
+          </li>
+          <li>
+            <a href="#work" class="navLink">Development</a>
+          </li>
+          <li>
+            <a href="#contact" class="navLink">Contact</a>
+          </li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+  </div>
+
+  <!-- Main Body Content -->
+
+  <body>
+    <main>
+      <section>
+        <div class="row hero">
+          <div class="s12">
+            <span
+              class="background-image"
+              role="img"
+              aria-label="Backround Image of computer graphics on a screen"
+            ></span>
+            <img id="headshot"
+            src="./assets/Images/ms-headshot.jpg"
+            alt="Image of Michael Schenck headshot"
+          />
+            <h2>Development Portfolio</h2>
+          </div>
+        </div>
+        <div class="container">
+          <!-- About Me Info -->
+          <div id="mainContent" class="mainContentDiv">
+            <div class="row">
+              <div class="col s2 left" id="aboutme"><h2 class="leftSideH2">About</h2></div>
+              <div class="col s10 right aboutMe-block">
+                <p>
+                  Web developer based in Atlanta, Georgia and working in Ecommerce Digital Merchandising & Systems Integration. I am excited to share some of my projects here.
+                </p>
+              </div>
+            </div>
+
+            <!-- FEATURED PROJECT SECTION -->
+
+            <div class="row">
+              <div class="col s2 left " id="work"><h2 class="leftSideH2">Work</h2>
+              </div>
+              <div class="col s10 right featured-content-block featuredProjectContainer">
+                <a
+                  href="https://infinite-coast-94356.herokuapp.com/"
+                  target="top"
+                >
+                  <img
+                    src="./assets/Images/Prioritizer.JPG"
+                    class="float-center"
+                    alt="Image of Prioritizer Web Application"
+                /></a>
+                <h2>
+                  <a
+                    href="https://infinite-coast-94356.herokuapp.com/"
+                    target="top"
+                    ><span>The Prioritizer</span></a
+                  >
+                </h2>
+                <p>
+                  <span>
+                    Heroku deployed MySQL / JAWS.DB based application that helps distributed teams vote on project proposals and priorities. Uses MVC and ORM methodology with Node.JS, Express.JS, Sequelize, Handlebars, and Bcrypt. 
+                    </span>
+                </p>
+              </div>
+            </div>
+
+            <!-- MAIN PROJECTS SECTION -->
+            <div class="row">
+              <div class="col s2 left">
+                <h2></h2>
+              </div>
+
+
+              <div class="col s10 content-block right">
+                <div class="col s12 l6 projectContainer">
+                  <a
+                  href="https://mdschenck.github.io/Wildlife-Census"
+                  target="top"
+                >
+                  <img
+                    src="./assets/Images/WildlifeCensus1.JPG"
+                    alt="Image of Wildlife Census Web Application"
+                  /></a>
+                  <h2><span>Wildlife Census</span></h2>
+                  <p><span>Population mapping tool using Mapbox and Wiki APIs </span></p>
+                </div>
+                <div class="col s12 l6 projectContainer">
+                  <a
+                  href="https://floating-escarpment-49352.herokuapp.com/"
+                  target="top"
+                >
+                  <img
+                    src="./assets/Images/Tech-Blog.JPG"
+                    alt="Image Of Tech Blog"
+                  /></a>
+                  <h2><span>Tech Blog</span></h2>
+                  <p><span>Heroku deployed MySQL DB based blog application</span></p>
+                </div>
+              </div>
+            
+
+              <div class="col s10 right content-block">
+                <div class="col s12 l6 projectContainer">
+                  <a
+                  href="https://mdschenck.github.io/Weather-Dashboard/"
+                  target="top"
+                >
+                  <img
+                    src="./assets/Images/WeatherDashboard.jpg"
+                    alt="Image of Weather Dashboard"
+                  /></a>
+                  <h2><span>Weather Dashboard</span></h2>
+                  <p><span>Location based weather application. API calls, Local Storage</span></p>
+                </div>
+                <div class="col s12 l6 projectContainer">
+                  <a
+                    href="https://mdschenck.github.io/Work-Day-Scheduler/"
+                    target="top"
+                  >
+                    <img
+                      src="./assets/Images/WorkdayCalendar.jpg"
+                      alt="Image of Workday Scheduler"
+                  /></a>
+                  <h2>
+                    <a
+                      href="https://mdschenck.github.io/Work-Day-Scheduler/"
+                      target="top"
+                      ><span>Workday Scheduler</span></a
+                    >
+                  </h2>
+                  <p><span>A simple time tracking application</span></p>
+                </div>
+              </div>
+            </div>
+
+            <!-- CONTACT SECTION -->
+
+            <div class="row">
+              <div class="col s2 left  leftSide" id="contact">
+                <h2  class="leftSideH2">Contact</h2>
+              </div>
+              <div class="col s10 right">
+                <h3 class="contactLinks">
+                  <a href="mailto:mdschenck@gmail.com"> mdschenck@gmail.com </a>
+                  <a
+                    href="https://www.linkedin.com/in/michaeldschenck"
+                    target="top"
+                  >
+                    Linkedin
+                  </a>
+                  <a href="https://www.github.com/mdschenck" target="top">
+                    GitHub
+                  </a>
+                  <a
+                    href="./assets/files/MIchaelSchenck-Resume2022.pdf"
+                    target="top"
+                  >
+                    Resume
+                  </a>
+                </h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Site Footer -->
+
+    <footer class="footer">
+      <p>Made with ❤️️ &copy; 2021 Michael Schenck Industries</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+  </body>
+</html>
