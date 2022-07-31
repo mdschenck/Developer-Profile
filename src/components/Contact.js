@@ -2,12 +2,12 @@ import React from 'react';
 
 const contact = ({ }) => {
 return (
-<div class="row">
-<div class="col s2 left  leftSide" id="contact">
-  <h2  class="leftSideH2">Contact</h2>
+<div className="row">
+<div className="col s2 left  leftSide" id="contact">
+  <h2  className="leftSideH2">Contact</h2>
 </div>
-<div class="col s10 right">
-  <h3 class="contactLinks">
+<div className="col s10 right">
+  <h3 className="contactLinks">
     <a href="mailto:mdschenck@gmail.com"> mdschenck@gmail.com </a>
     <a
       href="https://www.linkedin.com/in/michaeldschenck"

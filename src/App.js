@@ -8,10 +8,11 @@ import Project from './components/Project';
 import Footer from './components/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import { Container, Row, Col } from 'react-bootstrap';
 
 function App() {
   // We declare a state variable that is an array called `issues` and a function to update it.
-  const [issues, setIssues] = useState([]);
+  // const [issues, setIssues] = useState([]);
 
   // When the page loads, set the document title to something specific to this app.
   // This only runs once because of our empty dependency array.
@@ -29,37 +30,37 @@ function App() {
   // };
 
   return (
-    <div className="ui container">
+    <Container>
       {/* Here we pass our getRepoIssues function as a prop to SearchBar */}
       {/* <SearchBar onFormSubmit={getRepoIssues} /> */}
       <Header />
-      <div class="row hero">
-          <div class="s12">
+      <Row className="hero">
+          <div className="s12">
             <span
-              class="background-image"
+              className="background-image"
               role="img"
-              aria-label="Backround Image of computer graphics on a screen"
+              aria-label="Computer graphics on a screen"
             ></span>
             <img id="headshot"
             src="./assets/Images/ms-headshot.jpg"
-            alt="Image of Michael Schenck headshot"
+            alt="Michael Schenck headshot"
           />
             <h2>Development Portfolio</h2>
           </div>
-        </div>
+        </Row>
       <About />
       <FeaturedProject />
       <Project />
       <Contact />
       <Footer />
-      <div className="ui grid">
+      {/* <div className="ui grid">
         <div className="ui row">
           <div className="eleven wide column">
-            {/* <IssueList issues={issues} /> */}
+             <IssueList issues={issues} /> 
           </div>
         </div>
-      </div>
-    </div>
+      </div> */}
+    </Container>
 
 
   );

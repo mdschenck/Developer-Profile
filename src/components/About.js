@@ -1,15 +1,16 @@
 import React from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
 
-const about = ({ }) => {
+const about = () => {
 return (
-<div class="row">
-<div class="col s2 left" id="aboutme"><h2 class="leftSideH2">About</h2></div>
-<div class="col s10 right aboutMe-block">
+<Row>
+<Col xs={2} className="left" id="aboutme"><h2 className="leftSideH2">About</h2></Col>
+<Col xs={10} className="aboutMe-block">
   <p>
-    Web developer based in Atlanta, Georgia and working in Ecommerce Digital Merchandising & Systems Integration. I am excited to share some of my projects here.
+    Web developer based in Atlanta, Georgia and working in Ecommerce / Digital Merchandising & Systems Integration.
   </p>
-</div>
-</div>
+</Col>
+</Row>
 );
 };
 
