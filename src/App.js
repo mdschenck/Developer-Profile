@@ -4,7 +4,10 @@ import Header from './components/Header';
 import About from './components/About';
 import Contact from './components/Contact';
 import FeaturedProject from './components/FeaturedProject';
-import Project from './components/Project'
+import Project from './components/Project';
+import Footer from './components/Footer';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.css';
 
 function App() {
   // We declare a state variable that is an array called `issues` and a function to update it.
@@ -30,10 +33,25 @@ function App() {
       {/* Here we pass our getRepoIssues function as a prop to SearchBar */}
       {/* <SearchBar onFormSubmit={getRepoIssues} /> */}
       <Header />
+      <div class="row hero">
+          <div class="s12">
+            <span
+              class="background-image"
+              role="img"
+              aria-label="Backround Image of computer graphics on a screen"
+            ></span>
+            <img id="headshot"
+            src="./assets/Images/ms-headshot.jpg"
+            alt="Image of Michael Schenck headshot"
+          />
+            <h2>Development Portfolio</h2>
+          </div>
+        </div>
       <About />
       <FeaturedProject />
       <Project />
       <Contact />
+      <Footer />
       <div className="ui grid">
         <div className="ui row">
           <div className="eleven wide column">

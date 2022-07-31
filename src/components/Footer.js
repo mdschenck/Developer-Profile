@@ -1,21 +1,21 @@
 import React from 'react';
-import { useLocation, useNavigate } from 'react-router-dom';
+// import { useLocation, useNavigate } from 'react-router-dom';
 
 const Footer = () => {
-  const location = useLocation();
-  const navigate = useNavigate();
+  // const location = useLocation();
+  // const navigate = useNavigate();
   return (
     <footer className="w-100 mt-auto bg-secondary p-4">
       <div className="container text-center mb-5">
-        {location.pathname !== '/' && (
+        {/* {location.pathname !== '/' && (
           <button
             className="btn btn-dark mb-3"
             onClick={() => navigate(-1)}
           >
             &larr; Go Back
           </button>
-        )}
-        <h4>
+        )} */}
+        {/* <h4>
           Made with{' '}
           <span
             className="emoji"
@@ -26,7 +26,10 @@ const Footer = () => {
             ❤️
           </span>{' '}
           by the Tech Thoughts team.
-        </h4>
+        </h4> */}
+
+
+        <p>Made with ❤️️ &copy; 2021 Michael Schenck Industries</p>
       </div>
     </footer>
   );
