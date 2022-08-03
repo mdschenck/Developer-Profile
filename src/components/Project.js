@@ -28,7 +28,7 @@ return (
                   target="top"
                 >
                   <img
-                    src="./assets/Images/Tech-Blog.JPG"
+                    src="./assets/Images/Tech-Blog.jpg"
                     alt="Tech Blog"
                   /></a>
                   <h2><span>Tech Blog</span></h2>

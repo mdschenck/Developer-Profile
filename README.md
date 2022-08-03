@@ -23,10 +23,16 @@ A developer's profile created with React front end programming. This application
 
 
 # Screenshots
+Screenshot of React Developer Profile Desktop View:
+![Screenshot of React Developer Profile Desktop View:](./public/assets/Images/React-Developer-Profile-Screenshot1.jpg)
 
-![Screenshot of React Developer Profile Desktop View:](./public/Images/React-Developer-Profile-Screenshot1.jpg)
+Screenshot  of React Developer Profile Mobile View:
+![Screenshot  of React Developer Profile Mobile View:](./public/assets/Images/React-Developer-Profile-Screenshot2.jpg)
 
-![Screenshot  of React Developer Profile Mobile View:](./public/Images/React-Developer-Profile-Screenshot2.jpg)
+Screenshot  of React Developer Profile Form Validation:
+![Screenshot  of React Developer Profile Form Validation:](./public/assets/Images/React-Developer-Profile-Screenshot3.jpg)
+
+
 
 
 
