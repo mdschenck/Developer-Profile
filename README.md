@@ -19,14 +19,14 @@ A developer's profile created with React front end programming. This application
 
 [GitHub Repository](https://github.com/mdschenck/React-Developer-Profile)
 
-[Deployed Application](https://mdschenck.github.com/example.com.com.com.ok?.nice.69.oh.yeah)
+[Deployed Application](https://mdschenck.github.io/React-Developer-Profile)
 
 
 # Screenshots
 
-![Screenshot of React Developer Profile:](./public/images/React-Developer-Profile1.jpg)
+![Screenshot of React Developer Profile Desktop View:](./public/images/React-Developer-Profile-Screenshot1.jpg)
 
-![Screenshot  of React Developer Profile:](./public/images/React-Developer-Profile2.jpg)
+![Screenshot  of React Developer Profile Mobile View:](./public/images/React-Developer-Profile-Screenshot2.jpg)
 
 
 
