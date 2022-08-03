@@ -9,6 +9,7 @@ return (
 
 
               <Col xs={10} className="content-block">
+                <row>
                 <Col xs={12} md={6} className="projectContainer">
                   <a
                   href="https://mdschenck.github.io/Wildlife-Census"
@@ -33,10 +34,12 @@ return (
                   <h2><span>Tech Blog</span></h2>
                   <p><span>Heroku deployed MySQL DB based blog application</span></p>
                 </Col>
+                </row>
               </Col>
             
 
               <Col xs={10} className="content-block">
+                <row>
                 <Col xs={12} md={6} className="projectContainer">
                   <a
                   href="https://mdschenck.github.io/Weather-Dashboard/"
@@ -67,6 +70,7 @@ return (
                   </h2>
                   <p><span>A simple time tracking application</span></p>
                 </Col>
+                </row>
               </Col>
             </Row>
 );
