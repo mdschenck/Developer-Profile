@@ -8,7 +8,7 @@ import Project from './components/Project';
 import Footer from './components/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col, Button, Form } from 'react-bootstrap';
 
 function App() {
   // We declare a state variable that is an array called `issues` and a function to update it.

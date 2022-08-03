@@ -1,4 +1,5 @@
 import React from 'react';
+import { Container, Row, Col, Button, Form, InputGroup } from 'react-bootstrap';
 
 const contact = ({ }) => {
 return (
@@ -25,6 +26,33 @@ return (
       Resume
     </a>
   </h3>
+</div>
+<div className="col s10 right">
+<h2>Reach Out!</h2>
+<Form>
+<Form.Group className="mb-3" controlId="formContactName">
+        <Form.Label>Name</Form.Label>
+        <Form.Control type="name" placeholder="Name" />
+      </Form.Group>
+      <Form.Label>Email</Form.Label>
+      <InputGroup hasValidation>
+
+      <Form.Control type="email" required isInvalid/>
+      <Form.Control.Feedback type="invalid">
+        Please enter a valid email address.
+      </Form.Control.Feedback>
+    </InputGroup>
+
+      {/* <Form.Group className="mb-3" controlId="formBasicEmail">
+        <Form.Label>Email address</Form.Label>
+        <Form.Control type="email" placeholder="Email" />
+      </Form.Group> */}
+      <Button variant="primary" type="submit" className="right">
+        Submit
+      </Button>
+    </Form>
+
+
 </div>
 </div>
 );

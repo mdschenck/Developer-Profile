@@ -24,9 +24,9 @@ A developer's profile created with React front end programming. This application
 
 # Screenshots
 
-![Screenshot of React Developer Profile Desktop View:](./public/images/React-Developer-Profile-Screenshot1.jpg)
+![Screenshot of React Developer Profile Desktop View:](./public/Images/React-Developer-Profile-Screenshot1.jpg)
 
-![Screenshot  of React Developer Profile Mobile View:](./public/images/React-Developer-Profile-Screenshot2.jpg)
+![Screenshot  of React Developer Profile Mobile View:](./public/Images/React-Developer-Profile-Screenshot2.jpg)
 
 
 
