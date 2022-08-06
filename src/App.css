@@ -94,6 +94,8 @@ header h1 {
   display: inline;
   font-size: 40px;
   margin-bottom: 0%;
+  margin-left:100px;
+  float: left;
 }
 
 header h1 .sch {
@@ -110,11 +112,12 @@ header nav {
 
 header nav ul {
   list-style-type: none;
+  float: right;
+  margin-right: 100px;
 }
 
 header nav ul li {
-  /* display: inline; */
-  /* margin-left: 25px; */
+  display: inline;
   float: right;
 }
 
@@ -170,23 +173,19 @@ header nav ul li {
   color: #0f1b19;
   width: 75%;
   margin-left: 25%;
+  float: left;
 }
 
+.aboutMe {
+  font-size: 30px;
+}
 .aboutMe-block {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  /* background-color: #e0dbdb; */
+  font-size: 30px;
   color: #0f1b19;
-  width: 75%;
-  margin-left: 25%;
-display: inline;
 margin-bottom: 0px;
 }
 
-.aboutMe-block img {
-  position: absolute;
-  max-height: 50px;
-  left: 7.5%
-}
 .content-block {
   position: relative;
 }
@@ -207,9 +206,10 @@ margin-bottom: 0px;
 
 .featured-content-block h2 {
   position: relative;
-  bottom: 110px;
+  bottom: 60px;
   left: 5px;
   font-size: 30px;
+  float: left;
 }
 
 .featured-content-block h2 span {
@@ -220,22 +220,25 @@ margin-bottom: 0px;
 .featured-content-block p span {
   background-color: #67a9ad;
   opacity: 80%;
+  float: left;
 }
 
 .featured-content-block p {
   position: relative;
-  bottom: 80px;
+  bottom: 20px;
   left: 5px;
   font-size: 24px;
   max-width: 75%;
+  float: left;
 }
 
 
 .content-block h2 {
-  position: absolute;
+  position: relative;
   bottom: 40px;
   left: 5px;
   font-size: 30px;
+  float: left;
 }
 
 .content-block h2 span {
@@ -249,10 +252,11 @@ margin-bottom: 0px;
 }
 
 .content-block p {
-  position: absolute;
-  bottom: 20px;
+  position: relative;
+  bottom: 10px;
   left: 5px;
   font-size: 24px;
+  float: left;
 }
 
 .featuredProjectContainer {
@@ -269,6 +273,7 @@ margin-bottom: 0px;
   width: 50%;
   margin-top: 10px;
   margin-bottom: 10px;
+  float: left;
 }
 
 .projectContainer:hover {
@@ -279,7 +284,7 @@ margin-bottom: 0px;
   dislplay: inline;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   float: right;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .leftSideH2 {
@@ -309,7 +314,8 @@ footer p {
   .projectContainer {
     width: 100%;
   }
-  .featured-content-block h2 {
+
+  /* .featured-content-block h2 {
     position: relative;
     bottom: 20px;
     left: 5px;
@@ -330,7 +336,7 @@ footer p {
     bottom: 35px;
     left: 5px;
     font-size: 24px;
-  }
+  } */
 
 }
 

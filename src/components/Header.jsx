@@ -3,15 +3,9 @@ import React from 'react';
 
 const Header = () => {
   return (
-    <header className="text-light mb-4 py-3 flex-row align-center">
-      {/* <div className="container flex-row justify-space-between-lg justify-center align-center">
-        <Link className="text-light" to="/">
-          <h1 className="m-0">Tech Thoughts</h1>
-        </Link>
-        <p className="m-0">Get into the mind of a programmer.</p>
-      </div> */}
+    <header className="text-light py-3 flex-row" alignItems="flex-start">
 
-<h1>Michael <span className="sch">Sch</span>enck</h1>
+<h1 justifyContent="flex-start">Michael <span className="sch">Sch</span>enck</h1>
         <nav>
           <ul>
           <li>
