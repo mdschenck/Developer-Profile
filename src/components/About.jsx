@@ -19,12 +19,13 @@ return (
       <Box
         sx={{
           marginTop: 2,
-          display: 'flex',
-          flexDirection: 'column',
+          marginBottom: 2,
+          // display: 'flex',
+          // flexDirection: 'column',
           // alignItems: 'center',
         }}
       >
-        <Grid container spacing={1}>
+        <Grid container xs={12} spacing={1}>
           <Grid item xs={2} className="left  leftSide" id="about">
             <h2  className="leftSideH2">About</h2>
           </Grid>

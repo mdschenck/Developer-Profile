@@ -18,6 +18,7 @@ return (
       <Box
         sx={{
           marginTop: 2,
+          marginBottom: 2,
           display: 'flex',
           flexDirection: 'column',
           // alignItems: 'left',
@@ -45,7 +46,7 @@ return (
           </h2>
           <p>
           <span>
-            Heroku deployed MySQL / JAWS.DB based prioritization application. MVC and ORM methodology with Node.JS, Express.JS, Sequelize, Handlebars, and Bcrypt. 
+            Heroku deployed MySQL / JAWS.DB based prioritization application. MVC + ORM, Node.JS, Express and Bcrypt. 
           </span>
           </p>
         </Grid>
