@@ -17,6 +17,7 @@ const Header = () => {
         <CssBaseline />
             <span
               className="background-image"
+              width={100}
               role="img"
               aria-label="Computer graphics on a screen"
             ></span>

@@ -10,10 +10,22 @@ import Footer from './components/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 // import { Container, Row, Col, Button, Form } from 'react-bootstrap';
+export default function App() {
+  const [mode, setMode] = React.useState<PaletteMode>('light');
+  const colorMode = React.useMemo(
+    () => ({
+      // The dark mode switch would invoke this method
+      toggleColorMode: () => {
+        setMode((prevMode: PaletteMode) =>
+          prevMode === 'light' ? 'dark' : 'light',
+        );
+      },
+    }),
+    [],
+  );
 
-function App() {
-  // We declare a state variable that is an array called `darkMode` and a function to update it.
-  const [darkMode, toggleDarkMode] = useState([]);
+  // Update the theme only if the mode changes
+  const theme = React.useMemo(() => createTheme(getDesignTokens(mode)), [mode]);
 
   // When the page loads, set the document title to something specific to this app.
   // This only runs once because of our empty dependency array.
@@ -34,4 +46,4 @@ function App() {
   );
 }
 
-export default App;
+// export default App;
