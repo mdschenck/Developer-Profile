@@ -4,8 +4,7 @@ Michael Schenck Developer Profile - Created With React
 
 # Description
 
-A developer's profile created with React front end programming. This application showcases my ability to create single page react applications. React is an incredible super fluid programming language developed by the Facebook team and incorporating Functional Programming. This application showcases how React is used to store application "State" and display Dark or Light mode at the flip of a switch, or change user data based on the logged in user key. 
-
+Developer profile created with React
 
 ## Table of Contents
 
